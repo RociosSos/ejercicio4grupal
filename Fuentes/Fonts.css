@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'mario1';
+    src: url(MarioKart/SuperMario256/SuperMario256.ttf) format(truetype);
+}
+@font-face{
+    font-family: 'mario2';
+    src: url(/Fuentes/MarioKart/CuteDino/Cute\ Dino.ttf) format(truetype);
+}
+@font-face{
+    font-family: 'mario2';
+    src: url(/Fuentes/MarioKart/CuteDino/Cute\ Dino.otf) format(opentype);
+}
+@font-face{
+    font-family: 'mario3';
+    src: url(/Fuentes/MarioKart/HOLLYSWEET/HOLYSWEET.ttf) format(truetype);
+}
+@font-face{
+    font-family: 'mortal1';
+    src: url(/Fuentes/Mortalkombat/Another_danger/Another\ Danger\ -\ Demo.otf) format(opentype);
+}
+@font-face{
+    font-family: 'mortal1';
+    src: url(/Fuentes/Mortalkombat/Another_danger/Another\ Danger\ Slanted\ -\ Demo.otf) format(opentype);
+}
+@font-face{
+    font-family: 'mortal2';
+    src: url(/Fuentes/Mortalkombat/Fight-Sprit/Fighting\ Spirit\ 2\ bold.otf) format(opentype);
+
+}
+@font-face{ 
+
+    font-family: 'mortal3';
+    src: url(/Fuentes/Mortalkombat/Scream-again/Scream\ Again.ttf) format(truetype);
+}
