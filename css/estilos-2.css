@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
 .top-section, .bottom-section {
@@ -42,7 +41,7 @@ h1 {
     transform: scale(1.5);
 }
 a {
-    text-decoration: none; /* Para quitar subrayado */
+    text-decoration: none;
 }
 .Container-mk-8, .Container-Mk-11 {
     max-width: 1100px;
@@ -146,5 +145,36 @@ a.Button-mk-8, a.Button-mk-11 {
     transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 footer {
-    padding-top: 40px;
+    background: linear-gradient(135deg, #f6aa1c, #941b0c);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer:hover {
+    background: linear-gradient(135deg, #f6aa1c, #d07030);
+    box-shadow: 0 6px 30px rgba(255, 120, 0, 0.6);
+}
+
+footer p {
+    margin: 0;
+    font-family: 'mortal2', sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+}
+
+footer::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(15px);
+    z-index: -1;
 }
